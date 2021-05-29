@@ -141,6 +141,10 @@ input[type=checkbox] {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: rgba(48, 112, 223, 0.8);
+}
+
 .option {
     margin-top: 80px;
 }
