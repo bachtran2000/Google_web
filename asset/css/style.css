@@ -1,5 +1,5 @@
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     scroll-behavior: smooth;
     max-width: 500px;
     margin: auto;
@@ -71,7 +71,7 @@ html {
 
 .header .header-line h3 {
     font-size: 34px;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 5px;
     margin-bottom: 12px;
 }
