@@ -90,6 +90,13 @@ html {
     width: 98%;
 }
 
+.mail {
+    position: absolute;
+    right: 328px;
+    top: 193px;
+    padding: auto;
+}
+
 .form-control:focus {
     outline: none;
     border: 2px solid #1e89e1;
