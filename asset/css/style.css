@@ -5,15 +5,11 @@ html {
     justify-content: center;
     margin: auto;
     align-items: center;
+    margin-top: 200px;
 }
 
 * {
     box-sizing: border-box;
-}
-
-.body {
-    margin-top: 50%px;
-    height: 100px;
 }
 
 
@@ -157,4 +153,13 @@ input[type=checkbox] {
 
 .option {
     margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 50px;
 }
