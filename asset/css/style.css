@@ -1,0 +1,139 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    max-width: 500px;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* All */
+
+.clear {
+    clear: both;
+}
+
+.row {
+    margin: 0;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-right: 8px;
+}
+
+.col-3 {
+    width: 33.33333%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+
+/* Header */
+
+.header {}
+
+.img-google img {
+    width: 22%;
+    margin-bottom: 3px;
+}
+
+.header .header-line h3 {
+    font-size: 34px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.body-form {}
+
+.body-form .form-control {
+    padding: 12px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.email .form-control {
+    width: 98%;
+}
+
+.form-control:focus {
+    outline: none;
+    border: 2px solid #1e89e1;
+}
+
+.form-control::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.note {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
+input[type=checkbox] {
+    margin-left: 8px;
+    margin-right: 24px;
+    transform: scale(1.7);
+    padding: 10px;
+}
+
+.link-instead {
+    color: rgb(48, 133, 223);
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 12px;
+    width: 104px;
+    float: right;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(48, 112, 223);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.option {
+    margin-top: 80px;
+}
