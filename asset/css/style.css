@@ -1,12 +1,19 @@
 html {
     font-family: Roboto, sans-serif;
     scroll-behavior: smooth;
-    max-width: 500px;
+    display: flex;
+    justify-content: center;
     margin: auto;
+    align-items: center;
 }
 
 * {
     box-sizing: border-box;
+}
+
+.body {
+    margin-top: 50%px;
+    height: 100px;
 }
 
 
@@ -62,10 +69,12 @@ html {
 
 /* Header */
 
+.container {}
+
 .header {}
 
 .img-google img {
-    width: 22%;
+    width: 30%;
     margin-bottom: 3px;
 }
 
@@ -88,13 +97,13 @@ html {
 
 .email .form-control {
     width: 98%;
+    position: relative;
 }
 
 .mail {
     position: absolute;
-    right: 328px;
-    top: 193px;
-    padding: auto;
+    margin-top: 32px;
+    margin-left: -103px;
 }
 
 .form-control:focus {
@@ -139,6 +148,7 @@ input[type=checkbox] {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 
 .btn:hover {

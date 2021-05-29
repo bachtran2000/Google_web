@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 
+
 <body>
+    <script src="./asset/js/main.js">
+    </script>
     <div class="container">
         <div class="header">
             <div class="img-google">
@@ -19,63 +22,71 @@
                 <h3>Create your Google Account</h3>
             </div>
         </div>
-        <form action="">
-            <div class="body-form col name">
+        <div class="form_div">
 
-                <div class="row fisrt-last">
-                    <div class="col col-2">
-                        <input type="text" name="first" class="form-control" placeholder="First name">
+            <form action="" onsubmit="return kt_form" class="form">
+                <div class="body-form col ">
+
+                    <div class="row fisrt-last">
+                        <div class="col col-2">
+                            <input required type="text" name="first" id="first" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col col-2">
+                            <input required type="text" name="last" id="last" class="form-control" placeholder="Last name">
+                        </div>
                     </div>
-                    <div class="col col-2">
-                        <input type="text" name="last" id="user" class="form-control" placeholder="Last name">
+
+                    <div class="row email">
+
+                        <input required id="username" type="text" name="user" class="form-control" placeholder="Username">
+
+
+                        <label class="mail">@gmail.com</label>
+
+
                     </div>
-                </div>
 
-                <div class="row email">
-
-                    <input type="email" name="user" class="form-control" placeholder="Username">
-
-
-                    <p class="mail">@gmail.com</p>
-
-
-                </div>
-
-                <div class="row note">
-                    <p class="">You can use letters, numbers & periods</p>
-                </div>
-
-                <div class="row link-instead">
-                    <p class="">Use my current email address instead</p>
-                </div>
-
-                <div class="row password">
-                    <div class="col col-2">
-                        <input type="password" name="" id="" class="form-control" placeholder="Password">
+                    <div class="row note">
+                        <p class="">You can use letters, numbers & periods</p>
                     </div>
-                    <div class="col col-2">
-                        <input type="password" class="form-control" name="" id="" placeholder="Confirm">
-                    </div>
-                </div>
 
-                <div class="row note">
-                    <p class="">Use 8 or more characters with a mix of letters, numbers & symbols</p>
-                </div>
-
-                <div class="row show">
-                    <input type="checkbox" name="Show" id=""><span class="checktext">Show password</span>
-                </div>
-                <div class="row option">
-                    <div class="col col-2">
-                        <p class="link-instead ">Sign in instead</p>
+                    <div class="row link-instead">
+                        <p class="">Use my current email address instead</p>
                     </div>
-                    <div class="col col-2">
-                        <button type="submit" class="btn col-half">Next</button>
-                    </div>
-                </div>
 
-            </div>
-        </form>
+                    <div class="row password">
+                        <div class="col col-2">
+                            <input required type="password" name="" id="pass" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="col col-2">
+                            <input required type="password" class="form-control" name="" id="confirm" placeholder="Confirm">
+                        </div>
+                    </div>
+
+                    <div class="row note">
+                        <p class="">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                    </div>
+
+                    <div class="row show">
+                        <input onclick="showPass()" type="checkbox" name="Show" id="show"><span class="checktext">Show password</span>
+                    </div>
+                    <div class="row option">
+                        <div class="col col-2">
+                            <p class="link-instead ">Sign in instead</p>
+                        </div>
+                        <div class="col col-2">
+                            <button onclick="checkName_Valid()" type="submit" class="btn col-half">Next</button>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col footer">
+        <p>Clone by Trần Cao Minh Bách</p>
+        <P>MSSV: AT150204</P>
+        <p>Phát triển Web - L05</p>
     </div>
 </body>
 
